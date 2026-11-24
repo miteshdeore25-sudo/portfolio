@@ -1,4 +1,4 @@
-/* Basic settings for the whole website */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -17,7 +17,7 @@ body {
     line-height: 1.5;
 }
 
-/* Navigation bar */
+
 .navbar {
     position: sticky;
     top: 0;
@@ -64,7 +64,7 @@ nav a.active {
     border-color: #1765e8;
 }
 
-/* Home section */
+ 
 .hero {
     background: linear-gradient(110deg, #e2e5ff, #d9ddff, #e8eaff);
     overflow: hidden;
@@ -97,7 +97,7 @@ nav a.active {
     margin: 8px 0 12px;
 }
 
-/* Blue buttons */
+
 .btn {
     display: inline-block;
     padding: 9px 25px;
@@ -135,7 +135,7 @@ nav a.active {
     border-radius: 50%;
 }
 
-/* Common section settings */
+
 .section {
     padding: 24px 6%;
 }
@@ -164,7 +164,7 @@ nav a.active {
     border-radius: 3px;
 }
 
-/* About and Education sections */
+
 .about {
     padding-top: 26px;
     padding-bottom: 26px;
@@ -216,7 +216,6 @@ nav a.active {
     text-transform: uppercase;
 }
 
-/* Skills section */
 .skills-section {
     background: linear-gradient(110deg, #e9eaff, #f0efff, #e6e9ff);
 }
@@ -262,7 +261,7 @@ nav a.active {
     font-weight: bold;
 }
 
-/* Projects section */
+
 .projects {
     padding-top: 16px;
     padding-bottom: 20px;
@@ -344,7 +343,7 @@ nav a.active {
     background-color: #1765e8;
 }
 
-/* Contact section */
+
 .contact-section {
     padding-top: 18px;
     padding-bottom: 22px;
@@ -396,7 +395,7 @@ nav a.active {
     font-weight: bold;
 }
 
-/* Contact form */
+
 .contact-form {
     flex: 1.25;
     display: flex;
@@ -437,7 +436,7 @@ textarea {
     border-radius: 5px;
 }
 
-/* Footer */
+
 .footer {
     padding: 16px 4%;
     color: white;
@@ -471,7 +470,7 @@ textarea {
     border-color: #1765e8;
 }
 
-/* Mobile screen settings */
+
 @media (max-width: 700px) {
     .navbar {
         height: auto;
@@ -560,7 +559,7 @@ textarea {
     }
 }
 
-/* Extra small mobile screens */
+
 @media (max-width: 420px) {
     nav {
         gap: 9px;
